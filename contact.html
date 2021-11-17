@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serena Bruzzesi/ContactMe</title>
+    <title>Serena Bruzzesi/Curriculum</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -38,39 +38,21 @@
     </div>
 
     <nav>
-        <a href = "index.html">HOME</a>>><a href = "curriculum.html">CURRICULUM</a>
+        <a href = "index.html">HOME</a>>><a href = "contact.html">CONTACT FORM</a>
     </nav>
     <FONT face = "Times New Roman">
-    <h2 align=center>
-        My curriculum:
-    </h2>
-    <hr>
-    <p>I was born on 26/10/1999 in Macerata (Italy), resident in Macerata.</p>
-    <p>I have a profile on Github above the username <i>Serena.1999</i>. </p>
+    <div class = "section"  align = center>
+        <h2>Contact Me</h2>
 
-    <h3>
-        Scientific Background:
-    </h3>
-    <ul>
-        <li>2018: Scientific high school diploma at the Liceo Galileo Galilei in Macerata</li>
-        <li>In progress: attendance of the degree course in Physics at the University of Pisa</li>
-    </ul>
-    
-    <h3>
-        Programming languages:
-    </h3>
-    <ul>
-        <li>I have coded with Python, Matlab and C languages frequently. These languages ​​were taught to me at university and I have done some insights on my own.</li>
-        <li>I also have studied the basis of html 4 and 5 on my own.</li>
-        <li>I know a little of C++, but not even the basic concepts at all (but I will learn soon! :D).</li>
-    </ul>
-
-    <h3>
-        Languages:
-    </h3>
-    <ul>
-        <li>My first language is italian, but I also know English and Spanish.</li>
-    </ul>
+        <form>
+            <!--<p><input name = "name" placeholder="name" type = "text" onfocus="if(this.value==this.defaultValue)this.value=''"/></p>
+            <p><input name = "email" placeholder="email address" type = "email" onfocus="this.value=''"/></p>-->
+            <p><input name = "name" placeholder="name" type = "text" autofocus required/></p>
+            <p><input name = "email" placeholder="email address" type = "email" autofocus required/></p>
+            <p><textarea name = "message" placeholder="Your message here..." autofocus required></textarea></p>
+            <p><input type = "submit" value = "SEND" class = "submit"/></p>
+        </form>
+    </div>
     </FONT>
 </body>
 

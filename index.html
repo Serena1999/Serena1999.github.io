@@ -6,94 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serena Bruzzesi</title>
-
-    <style>
-        /*h1 {
-            color: rgb(139, 0, 30);
-        }*/
-        .formattitle {
-            /*color:midnightblue;*/
-            color: white;
-            background-color:black;
-            margin: 0;
-            font-size: 220%;
-            line-height: 60px; /*specifica l'inzio della linea di testo: l'ho messa al centro in altezza rispetto alla box*/
-            /*font-size: 250%;*/
-            /*border-top-width: 0;*/
-        }
-        body{
-            padding: 0;/*CENTRO IL DIV CONTAINER*/
-            margin:0;
-        }
-
-        #main-container{
-            margin:0 auto;
-            padding:0;
-            /*width:960px; height:500px; background-color:#360;*/
-        }
-
-        #box{
-            /*width:250px; 
-            height:250px;*/
-            /*width: 834px;*/
-            height:60px;
-            background-color:black;
-            /*float:left;*/
-        }
-        /*#box2{
-            /*width:250px; 
-            height:250px;*//*
-            height:60px;
-            background-color:black;
-            float:right;
-        }*/
-
-        .structural {
-        position:absolute;
-        left:-9999px;
-        }
-        /*#rrr {
-            background-color: green;
-        }*/
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
-<body style = "background-color:lavender;">
-    
+<body>
     <div id="main-container">
         <div id="box">
             <!--<h1 align=center>-->
             <FONT face = "Rage Italic">
                 <h1 class = formattitle float = left>
+
                     <img src ="MyLogo.png" height = 60px width = 59px align = left>
+
                     Serena Bruzzesi
-                    <span class = form>
-                        <label for="search" class="structural">Search 456bereastreet.com</label>
-                        <input id="s" name="s" value="search on the site" onfocus="if(this.value==this.defaultValue)this.value=''"/>
-                        <!--<input type="search" id="search" name="search" class="txt" size="20">-->
-                        <input type="submit" class="btn" value="Search">
-                    </span>
+
+                    <!--<span class = form>-->
+                    <div style=position:absolute;right:15px;top:5px>
+                        <form><!--per ora non funziona-->
+                            <label for="search" class="structural">Search 456bereastreet.com</label>
+                            <input id="s" name="s" placeholder="search on the site" autofocus required/>
+                            <!--<input type="search" id="search" name="search" class="txt" size="20">-->
+                            <input type="submit" class="btn" value="Search">
+                        </form>
+                    </div>
+                    
+                    <!--</span>-->
                 </h1>
             </FONT>
-            
         </div>
     </div>
 
     <FONT face = "Times New Roman">
-        
-        <img align = right src ="myimage.jpeg" alt = "myimage"
-        style= "width:231px;height:400px;" border = "3px"><!--alt rappreseenta il tag che ho assegnato all'immagine-->
-        <!--"width:926px;height:1600px;" erano le dimensioni originali-->
-        
-        <hr> <!--width="150px" if I want more control on the extension of the line>--> <!--to do an horizontal line-->
-        This is my webpage. 
 
-        <!--<h2 class="tomato" id="rrr">My informations:</h2>-->
-        <h2> My informations:</h2>
-        <ul>
-            <li><a href="./curriculum.html">Curriculum</a></li> <!-- . sta per cartella corrente, questo è un cosiddetto link relativo-->
-        </ul>
+        <nav>
+            <a href = "index.html">HOME</a>
+        </nav>
+
+
+        <div id ="head" class = "section"><!--o anche direttamente <header></header> essendo HTML5-->
+            
+            <!--<hr>--> <!--width="150px" if I want more control on the extension of the line>--> <!--to do an horizontal line-->
+            
+            <p align=right color = black><i>Page created on 13/11/2021 by Serena Bruzzesi</i></p>
+
+            <img align = right src ="myimage.jpeg" alt = "myimage" style = "width:116px;height:200px" border = "3px">
+            <!--style= "width:231px;height:400px;" border = "3px"--><!--alt rappreseenta il tag che ho assegnato all'immagine-->
+            <!--"width:926px;height:1600px;" erano le dimensioni originali-->
+            <!--<h2 class="tomato" id="rrr">My informations:</h2>-->
+            <h2> My informations:</h2>
+
+            <p>I am a Physics student at the University of Pisa. The purpose of this page is to collect some notions of the subjects 
+                of study in my degree course, some insights and some information about me.
+            </p>
+
+            <ul>
+                <li><a href="./curriculum.html">Curriculum</a></li> <!-- . sta per cartella corrente, questo è un cosiddetto link relativo-->
+                <li><a href="./contact.html"> Contact form</a></li>
+                <li><a href="./trash.html"> Trash</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p><b>Contact Information:</b> bruzzesi.serena@gmail.com or visit the section "Contact form"</p>
+         <!--<p><b>Privacy Policy:</b>...</p>
+            <p><b>Social Media Icons:</b>...</p>
+            <p><b>Copyright Information:</b>...</p>
+            <p><b>Sitemap and Related Documents:</b>...</p>-->
+        </footer>
     </FONT>
 </body>
 

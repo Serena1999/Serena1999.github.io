@@ -1,0 +1,41 @@
+body {
+    background-color: lavender;
+}
+
+h1 {
+    color: white;
+    background-color:black;
+    margin: 0;
+    font-size: 220%;
+    line-height: 60px; /*specifica l'inzio della linea di testo: l'ho messa al centro in altezza rispetto alla box*/
+}
+
+nav{
+    color: blue;
+}
+
+/* # sta a indicare un id, cioè uno stile assegnabile a un oggetto*/
+
+#main-container{
+    margin:0 auto;
+    padding:0;
+}
+
+#box{
+    height:60px;
+    background-color:black;
+}
+
+/* . sta a indicare una classe, si assegna con class = nome dato dopo il punto*/
+
+.section{
+    padding:15px;
+    margin-bottom:10px;
+    border-radius: 10px; /*raggio con cui vengono arrotondati gli spigoli*/
+
+}
+
+.structural {
+    position:absolute;
+    left:-9999px;
+}

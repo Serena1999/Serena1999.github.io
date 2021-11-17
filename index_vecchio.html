@@ -1,0 +1,108 @@
+<!--documento utile per i commenti e prove-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serena Bruzzesi</title>
+
+    <style>
+        /*h1 {
+            color: rgb(139, 0, 30);
+        }*/
+        .formattitle {
+            /*color:midnightblue;*/
+            color: white;
+            background-color:black;
+            margin: 0;
+            font-size: 220%;
+            line-height: 60px; /*specifica l'inzio della linea di testo: l'ho messa al centro in altezza rispetto alla box*/
+            /*font-size: 250%;*/
+            /*border-top-width: 0;*/
+        }
+        body{
+            padding: 0;/*CENTRO IL DIV CONTAINER*/
+            margin:0;
+        }
+
+        #main-container{
+            margin:0 auto;
+            padding:0;
+            /*width:960px; height:500px; background-color:#360;*/
+        }
+
+        #box{
+            /*width:250px; 
+            height:250px;*/
+            /*width: 834px;*/
+            height:60px;
+            background-color:black;
+            /*float:left;*/
+        }
+        /*#box2{
+            /*width:250px; 
+            height:250px;*//*
+            height:60px;
+            background-color:black;
+            float:right;
+        }*/
+
+        .structural {
+        position:absolute;
+        left:-9999px;
+        }
+        /*#rrr {
+            background-color: green;
+        }*/
+    </style>
+</head>
+
+
+<body style = "background-color:lavender;">
+    
+    <div id="main-container">
+        <div id="box">
+            <!--<h1 align=center>-->
+            <FONT face = "Rage Italic">
+                <h1 class = formattitle float = left>
+                    <img src ="MyLogo.png" height = 60px width = 59px align = left>
+                    Serena Bruzzesi
+                    <!--<span class = form>-->
+                    <span>
+                        <form><!--per ora non funziona-->
+                            <label for="search" class="structural">Search 456bereastreet.com</label>
+                            <input id="s" name="s" value="search on the site" onfocus="if(this.value==this.defaultValue)this.value=''"/>
+                            <!--<input type="search" id="search" name="search" class="txt" size="20">-->
+                            <input type="submit" class="btn" value="Search">
+                        </form>
+                    </span>
+                    <!--</span>-->
+                </h1>
+            </FONT>
+            
+        </div>
+    </div>
+
+    <FONT face = "Times New Roman">
+        
+        <img align = right src ="myimage.jpeg" alt = "myimage"
+        style= "width:231px;height:400px;" border = "3px"><!--alt rappreseenta il tag che ho assegnato all'immagine-->
+        <!--"width:926px;height:1600px;" erano le dimensioni originali-->
+        
+        <hr> <!--width="150px" if I want more control on the extension of the line>--> <!--to do an horizontal line-->
+        This is my webpage. 
+
+        <!--<h2 class="tomato" id="rrr">My informations:</h2>-->
+        <h2> My informations:</h2>
+        <ul>
+            <li><a href="./curriculum.html">Curriculum</a></li> <!-- . sta per cartella corrente, questo è un cosiddetto link relativo-->
+        </ul>
+    </FONT>
+</body>
+
+</html>
