@@ -1,0 +1,135 @@
+body {
+    background-color: lavender;
+    background-image: url("the-butterfly-of-the-galaxies.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    font-family: "Times New Roman", serif, sans-serif, monospace;
+}
+/*CSS is composed of style rules that the browser interprets and then applies to the corrisponding elements in your document. A style
+rule has three parts: selector, property and value. For body (above): "body" is the selector, "background-color" is the property and 
+"lavender" is the value. Thee selestor points to the HTML element you want to style*/
+
+h1 {
+    color: white;
+    background-color:black;
+    margin: 0;
+    font-size: 220%;
+    line-height: 60px; /*specifica l'inzio della linea di testo: l'ho messa al centro in altezza rispetto alla box*/
+}
+
+
+/* # sta a indicare un id, cioè uno stile assegnabile a un oggetto; ID SELECTORS:*/
+
+#main-container{
+    margin:0 auto;
+    padding:0;
+}
+
+#box{
+    height:60px;
+    background-color:black;
+}
+
+/* . sta a indicare una classe, si assegna con class = nome dato dopo il punto. The class selector work in a similar way  of id ones.
+The major difference is that IDs can only be applied once per page, while classes can be usd as many times on a page as needed. 
+CLASS SELECTORS:*/
+
+.section{
+    padding:15px;
+    margin-bottom:10px;
+    border-radius: 10px; /*raggio con cui vengono arrotondati gli spigoli*/
+
+}
+
+.structural {
+    position:absolute;
+    left:-9999px;
+}
+
+/*Prova*/
+sb-topbar{
+    margin:0;
+    padding:0;
+}/*da assegnare a un div*/
+
+sb-topbar h1{
+    background-color:black;
+    color: white;
+    font-family: "Rage Italic", cursive, monospace;
+    text-align: "left";
+}
+
+sb-searchbar{
+    position:absolute;
+    right: 15px;
+    top:5px;
+}
+
+sb-nav{
+    border-width: 10px;
+    border-color:lavender;
+    border-style: solid; /*linea continua*/
+    text-align: "left";
+    background-color:lightgray;
+    border-radius: 20px;
+    padding: 0.5em;
+    /*display:block;*/
+}
+
+/*sb-nav a{
+    border-style: outset;
+    border-width: 3px;
+    padding: 0.5em;
+    border-radius: 20px;
+}*/
+
+sb-article{
+    border-width:10px;
+    border-color:lavender;
+    border-style: solid; /*linea continua*/
+    text-align: "left";
+    background-color:lightgray;
+    border-radius: 20px;
+    /*font-size: 1em;sarebbe 16px (em = desired element pixel value / parent element font-size in pixels) che è la grandezza di default*/
+    font-size: medium;
+    padding: 0.5em;
+    display:block;
+    width: 80%;
+}
+
+footer{
+    text-align: right;
+    color: white;
+    font-size: small;
+}
+
+sb-date{
+    text-align: right;
+    color: white;
+    font-size: small;
+    display:block;
+}
+
+.atom{
+    /*list-style-image: url("atomSmall3.jpg");*/
+    list-style-image: linear-gradient(to left bottom, red, blue);
+    list-style-position: inside;
+}
+
+/*text decoration:*/
+
+.none{
+    text-decoration: none;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.cancelled{
+    text-decoration: line-through;
+}

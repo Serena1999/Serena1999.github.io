@@ -1,6 +1,9 @@
 body {
     background-color: lavender;
 }
+/*CSS is composed of style rules that the browser interprets and then applies to the corrisponding elements in your document. A style
+rule has three parts: selector, property and value. For body (above): "body" is the selector, "background-color" is the property and 
+"lavender" is the value. Thee selestor points to the HTML element you want to style*/
 
 h1 {
     color: white;
@@ -14,7 +17,7 @@ nav{
     color: blue;
 }
 
-/* # sta a indicare un id, cioè uno stile assegnabile a un oggetto*/
+/* # sta a indicare un id, cioè uno stile assegnabile a un oggetto; ID SELECTORS:*/
 
 #main-container{
     margin:0 auto;
@@ -26,7 +29,9 @@ nav{
     background-color:black;
 }
 
-/* . sta a indicare una classe, si assegna con class = nome dato dopo il punto*/
+/* . sta a indicare una classe, si assegna con class = nome dato dopo il punto. The class selector work in a similar way  of id ones.
+The major difference is that IDs can only be applied once per page, while classes can be usd as many times on a page as needed. 
+CLASS SELECTORS:*/
 
 .section{
     padding:15px;
@@ -39,3 +44,5 @@ nav{
     position:absolute;
     left:-9999px;
 }
+
+
