@@ -58,7 +58,6 @@ sb-topbar h1{
     color: white;
     font-family: "Rage Italic", cursive, monospace;
     text-align: "left";
-    position: fixed;
 }
 
 sb-searchbar{
