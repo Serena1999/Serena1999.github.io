@@ -96,6 +96,7 @@ sb-article{
     padding: 0.5em;
     display:block;
     width: 80%;
+    float: left;
 }
 
 footer{
