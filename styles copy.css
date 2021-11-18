@@ -15,6 +15,7 @@ h1 {
     margin: 0;
     font-size: 220%;
     line-height: 60px; /*specifica l'inzio della linea di testo: l'ho messa al centro in altezza rispetto alla box*/
+    cursor: text;
 }
 
 
@@ -132,4 +133,27 @@ sb-date{
 
 .cancelled{
     text-decoration: line-through;
+}
+
+/*link style*/
+
+a:link{
+    color: indigo;
+    text-decoration: none;
+}
+
+a:visited{
+    color: indigo;
+    text-decoration: none;
+}
+
+a:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+
+/*mouse cursor style:*/
+
+a{
+    cursor: pointer;
 }
