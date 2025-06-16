@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-To purchase pdf
+In pdf format:
 ------
 [CV pdf](https://github.com/Serena1999/Serena1999.github.io/blob/master/files/CV_11_06_2025.pdf)
 
