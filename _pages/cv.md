@@ -52,7 +52,7 @@ Language skills
 ------
 * Mother tongue: Italian
 * English: B2
-* * Spanish: A1
+* Spanish: A1
 
 Projects:
 ------
