@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 *  "Master Thesis: Phase transitions in QCD with dynamical fermions: study along the diagonal of the
  Columbia plot and condensation of thermal monopoles as the pion mass varies", University of Pisa, supervisor: Massimo D'Elia, 01/01/2025 – current
 * Master's degree in Theoretical Physics , University of Pisa, 2022 - Current
@@ -20,7 +20,7 @@ Education
 * Scientific School Diploma, Macerata (Italy). Final grade: 95/100
 
 Work experience
-======
+------
 * 6-month scholarship at INFN:
   * Roma Tor Vergata (Rome, Italy);
   * Duties includes:
@@ -36,7 +36,7 @@ Work experience
   * Macerata, Italy.
   
 Skills
-======
+------
 * C
 * C++
 * Python
@@ -49,20 +49,20 @@ Skills
 * ROOT & pyROOT
 
 Language skills
-======
+------
 * Mother tongue: Italian
 * English: B2
 * * Spanish: A1
 
 Projects:
-======
+------
 * Creation of calibration software (fit with ellipsoid, quaternion formalism and manual calibration) and 3D tracking for the MPU6050 sensor;
 * Modelling the internal resistance of PN junction diodes;
 * Estimation of the maximum frequency via DFT with relative statistical uncertainty;
 * Quantitative analysis of signal anharmonicity and introduction of estimator.
 
 Exams taken during Master's degree (grade point average: 28.625/30)
-======
+------
 *  Theoretical Physics 1;
 *  Theoretical Physics 2;
 *  Statistical Physics;
@@ -73,11 +73,11 @@ Exams taken during Master's degree (grade point average: 28.625/30)
 *  Fundamental Interactions.
 
 Exams I intend to take (attended courses)
-======
+------
 *  Numerical Methods For Physics (expected in July).
 
 Other attended courses 
-======
+------
 *   Effective Field Theories;
 *   Standard Model and Beyond;
 *   Fundamentals of radiation-matter interaction;
@@ -88,7 +88,7 @@ Other attended courses
 *   Particle Dark Matter.
 
 Exams taken during Bachelor's degree
-======
+------
 *    Mathematical Analysis 1;
 *    Physics 1;
 *    Geometry 1;
@@ -110,4 +110,4 @@ Exams taken during Bachelor's degree
 *    Advanced Quantum Mechanics.
 
 Driving licence: AM, B
-======
+------
