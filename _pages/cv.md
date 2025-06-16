@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae Et Studiorum"
 permalink: /cv/
 author_profile: true
 redirect_from:
