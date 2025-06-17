@@ -65,7 +65,7 @@ Projects:
 * Estimation of the maximum frequency via DFT with relative statistical uncertainty;
 * Quantitative analysis of signal anharmonicity and introduction of estimator.
 
-Exams taken during Master's degree (grade point average: 28.625/30)
+Exams taken during Master's degree (grade point average: 28.6/30)
 ------
 *  Theoretical Physics 1;
 *  Theoretical Physics 2;
