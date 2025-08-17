@@ -78,7 +78,7 @@ Exams taken during Master's degree (grade point average: 28.6/30)
 
 Exams I intend to take (attended courses)
 ------
-*  Numerical Methods For Physics (expected in July).
+*  Numerical Methods For Physics (expected in September).
 
 Other attended courses 
 ------
