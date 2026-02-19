@@ -15,8 +15,7 @@ In pdf format:
 
 Education
 ------
-*  "Master Thesis: Phase transitions in QCD with dynamical fermions: study along the diagonal of the
- Columbia plot and condensation of thermal monopoles as the pion mass varies", University of Pisa, supervisor: Massimo D'Elia, 01/01/2025 – current
+*  "Master Thesis: Phase transitions in QCD with dynamical fermions: condensation of thermal monopoles as the pion mass varies and its dependence on smoothing", University of Pisa, supervisor: Massimo D'Elia, 01/01/2025 – current
 * Master's degree in Theoretical Physics , University of Pisa, 2022 - Current
 * National Training Course: "Preparazione e utilizzo delle miscele gassose per i rivelatori di
  particelle", NFN Roma Tor Vergata (Rome), 21/10/2024 – 23/10/2024
@@ -76,10 +75,6 @@ Exams taken during Master's degree (grade point average: 28.6/30)
 *  Early Universe Cosmology;
 *  Fundamental Interactions.
 
-Exams I intend to take (attended courses)
-------
-*  Numerical Methods For Physics (expected in September).
-
 Other attended courses 
 ------
 *   Effective Field Theories;
@@ -89,7 +84,8 @@ Other attended courses
 *   Astroparticles;
 *   General Astrophysics;
 *   Gravitational theories;
-*   Particle Dark Matter.
+*   Particle Dark Matter;
+*   Numerical Methods For Physics
 
 Exams taken during Bachelor's degree
 ------
