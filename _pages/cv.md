@@ -11,7 +11,7 @@ redirect_from:
 
 In pdf format:
 ------
-[CV pdf](https://github.com/Serena1999/Serena1999.github.io/blob/master/files/CV_11_06_2025.pdf)
+[CV pdf](https://github.com/Serena1999/Serena1999.github.io/blob/master/files/CV.pdf)
 
 Education
 ------
